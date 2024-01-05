@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package="./;geecache";
+package main;
+
+message Student {
+  string name =1;
+  bool male =2;
+  repeated int32 scores =3;
+}
